@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //đăng nhập
+        let passWord = "admin123";
+        let count = 0 ;
+        let login = false ;
+
+        while (count <3 ){
+            let input = promt (" vui long nhap mk")
+        if (promt === passWord){
+            console.log ("đăng nhập thành công")
+            login = true
+            break ;
+
+        }else{
+            count++ 
+            console.log ("sai mật khẩu còn lại " + (3-count) + " lần ")
+        }
+    }
+        if (count ===3){
+            console.log ("hệ thống đã bị khóa ")
+        }  else  {
+            do (true ){
+                let choice = +prompt (`
+                     chọn chức năng 
+                    1-nhập lô sách mới
+                    2-vẽ sơ đồ kệ sách
+                    3-thoát
+                `);
+                
+            }
+
+        }
+        // chức năng 1 
+    </script>
+</body>
+</html>
